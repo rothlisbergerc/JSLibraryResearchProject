@@ -99,6 +99,8 @@ input[type="text"]{
     z-index: 2;
     position: relative;
     display: inline-block;
+    display: flex;
+    justify-content: center;
 
     /* Vertical center */
     top: 50%;
@@ -114,10 +116,10 @@ span{
     color: red;
 }
 
-#all-input-items{
+/* #all-input-items{
     display: flex;
     justify-content: center;
-}
+} */
 
 #title-container{
     display: inline;
@@ -155,11 +157,14 @@ h2{
     font-size: 200%;
     margin-top: 20px;
     margin-bottom: 10px;
+    position: relative;
 }
 
 h3{
   margin: 0px;
-  position:absolute
+  position: relative;
+
+  /* position:absolute */
 }
 
 p{
