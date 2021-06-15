@@ -188,6 +188,13 @@ h1, h2{
 #all-items{
     text-align: center;
     font-size: x-large;
+
+    display: inline-block;
+
+    height:120px;
+    width:120px;
+    border:1px solid #ccc;
+    overflow:auto;
 }
 
 #add{
