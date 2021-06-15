@@ -1,11 +1,11 @@
 body{
     font-family: 'Reenie Beanie', cursive;
     font-size: large;
-    background-image: url('../images/NotebookPaperOnDeskBG.jpg');
+    /* background-image: url('../images/NotebookPaperOnDeskBG.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;         
+    background-size: cover;          */
 }
 
 span{

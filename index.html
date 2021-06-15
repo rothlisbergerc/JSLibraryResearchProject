@@ -8,11 +8,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/site.css">
     <link rel="stylesheet" href="https://unpkg.com/js-datepicker/dist/datepicker.min.css"> 
+
+    <script src="https://use.typekit.net/nlq1kdt.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
        
 </head>
 <body>
     <h1>ToDo List</h1>
 
+    <div id="container">
+        <video id="background_video" loop muted></video>
+        <div id="video_cover"></div>
+        <div id="overlay"></div>
+    
+        <div id="video_controls">
+          <span id="play">
+            <img src="play.png">
+          </span>
+          <span id="pause">
+            <img src="pause.png">
+          </span>
+        </div>
+      </div>
+ 
     <div id="all-input-items">
         <div id="title-container">
             <label for="title">Title: </label>
@@ -36,7 +54,6 @@
         <input type="button" id="add" value="Add Task">
     </div>   
 
-
     <h2>Tasks:</h2>
     <div id="all-items">        
         
@@ -51,6 +68,9 @@
     </div>
 
     <script src="https://unpkg.com/js-datepicker"></script>
-    <script src="js/main.js"></script>
+    <script src="js/bideo.js"></script>
+    <script src="js/bideoMain.js"></script>
+    <script src="js/main.js"></script>   
+
 </body>
 </html>
