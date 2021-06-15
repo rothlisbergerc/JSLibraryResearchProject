@@ -8,6 +8,10 @@ body{
     background-size: cover;         
 }
 
+span{
+    color: red;
+}
+
 #all-input-items{
     display: flex;
     justify-content: center;
