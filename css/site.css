@@ -4,14 +4,15 @@
 
 html, body{
     font-weight: 600;
-    font-family: 'proxima-nova-condensed', Helvetica;
+    /* font-family: 'proxima-nova-condensed', Helvetica; */
+    font-family: 'Reenie Beanie', cursive;
     color: #fff;
     font-size: large;
     /* width: 100%;
     height: 100%; */
     /* overflow: hidden; */
 
-    
+
     /* font-family: 'Reenie Beanie', cursive;
     font-size: large; */
     /* background-image: url('../images/NotebookPaperOnDeskBG.jpg');
@@ -19,6 +20,25 @@ html, body{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;          */
+}
+
+input[type="text"]{
+    border: 2px solid rgba(255,255,255,0.20);
+      border-radius: 61px;
+      font-size: 12px;
+      color: #FFFFFF;
+      letter-spacing: 1px;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 10px 25px;
+      display: inline-block;
+      margin-right: 15px;
+      opacity: 50%;
+}
+
+::placeholder{
+    color: purple;
+    font-weight: bold;
 }
 
 #container {
