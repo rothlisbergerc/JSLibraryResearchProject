@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List App</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="https://unpkg.com/js-datepicker/dist/datepicker.min.css"> 
+       
+</head>
+<body>
+    <h1>ToDo List</h1>
+
+    <div id="all-input-items">
+        <div id="title-container">
+            <label for="title">Title: </label>
+            <input type="text" id="title" placeholder="Enter a task">
+            <span data-required>*</span>
+            <br>
+        </div>
+    
+        <div id="due-date-container"> 
+            <label for="due-date">Due Date: </label>
+            <input type="text" id="due-date" placeholder="Enter a due date">
+            <br>
+        </div>
+    
+        <div id="checkbox-container">
+            <label for="is-complete">Is it completed? </label>
+            <input type="checkbox" id="is-complete">
+            <br>
+        </div>    
+    
+        <input type="button" id="add" value="Add Task">
+    </div>   
+
+
+    <h2>Tasks:</h2>
+    <div id="all-items">        
+        
+        <div id="incomplete-items">
+            <div id="major-priority"></div>
+            <div id="medium-priority"></div>
+            <div id="minor-priority"></div>
+        </div>
+
+        <div id="complete-items"></div>
+
+    </div>
+
+    <script src="https://unpkg.com/js-datepicker"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
