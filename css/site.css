@@ -26,7 +26,7 @@ input[type="text"]{
     border: 2px solid rgba(255,255,255,0.20);
       border-radius: 61px;
       font-size: 12px;
-      color: #FFFFFF;
+      color: black;
       letter-spacing: 1px;
       text-decoration: none;
       text-transform: uppercase;
@@ -163,8 +163,6 @@ h2{
 h3{
   margin: 0px;
   position: relative;
-
-  /* position:absolute */
 }
 
 p{
@@ -192,7 +190,8 @@ h1, h2{
 .completed{
     opacity: 50%;
     text-decoration: line-through;
-    color: black;
+    /* color: black; */
+    color: rgba(202, 168, 168, 0.445)
 }
 
 #all-items{
@@ -201,10 +200,23 @@ h1, h2{
 }
 
 #add{
-    margin-left: 5px;
+    /* margin-left: 5px;
     font-family: 'Reenie Beanie', cursive;
     font-weight: bold;
     font-size: large;
-    border-radius: 5px;
+    border-radius: 5px; */
+    border: 2px solid rgba(255,255,255,0.20);
+    border-radius: 61px;
+    font-size: 12px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-right: 15px;
+    opacity: 50%;
+
+
 }
 
