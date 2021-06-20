@@ -4,22 +4,9 @@
 
 html, body{
     font-weight: 600;
-    /* font-family: 'proxima-nova-condensed', Helvetica; */
     font-family: 'Reenie Beanie', cursive;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: large;
-    /* width: 100%;
-    height: 100%; */
-    /* overflow: hidden; */
-
-
-    /* font-family: 'Reenie Beanie', cursive;
-    font-size: large; */
-    /* background-image: url('../images/NotebookPaperOnDeskBG.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;          */
 }
 
 input[type="text"]{
@@ -89,7 +76,7 @@ input[type="text"]{
   #overlay {
     position: absolute;
     top: 0; right: 0; left: 0; bottom: 0;
-    background: rgba(0, 0, 0, 0.089);
+    background: rgba(186, 208, 255, 0);
   }
 
   #all-input-items {
@@ -167,7 +154,7 @@ h1, h2{
 }
 
 .medium-priority{
-    color: orange;
+    color: rgb(228, 125, 8);
 }
 
 .minor-priority{
