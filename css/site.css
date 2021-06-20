@@ -89,7 +89,7 @@ input[type="text"]{
   #overlay {
     position: absolute;
     top: 0; right: 0; left: 0; bottom: 0;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.089);
   }
 
   #all-input-items {
@@ -175,10 +175,9 @@ h1, h2{
 }
 
 .completed{
-    opacity: 50%;
+    opacity: 90%;
     text-decoration: line-through;
-    /* color: black; */
-    color: rgba(202, 168, 168, 0.445)
+    color: rgba(0, 0, 0, 0.445)
 }
 
 #all-items{
