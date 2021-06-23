@@ -22,11 +22,11 @@
     // of different video formats to add
     src: [
       {
-        src: 'videos/3DDeskAnimationFlourescentSpotlight.mp4',
+        src: 'videos/3DDeskAnimationTVLight.mp4',
         type: 'video/mp4'
       },
       {
-        src: '3DDeskAnimationFlourescentSpotlight.webm',
+        src: '3DDeskAnimationTVLight.webm',
         type: 'video/webm;codecs="vp8, vorbis"'
       }
     ],
